@@ -264,9 +264,9 @@ def test(x_test, y_test):
 
 
 if __name__ == "__main__":
-    trainFilePath = "/Users/unasm/project/lantern/text-classification-cnn-rnn/lanternfish/task_dataset_train.csv"
-    testFilePath = "/Users/unasm/project/lantern/text-classification-cnn-rnn/lanternfish/task_dataset_test.csv"
-    vocab_file = "/Users/unasm/project/lantern/text-classification-cnn-rnn/lanternfish/data/vocab.txt"
+    trainFilePath = "./data/task_dataset_train.csv"
+    testFilePath = "./data/task_dataset_test.csv"
+    vocab_file = "./data/vocab.txt"
 
     config = TCNNConfig()
     contents, tags, labelList, labels_to_id, labelNames = getData(trainFilePath)
