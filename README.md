@@ -2,6 +2,7 @@
 
 
 ## 数据分布
+<pre>
 abel is : A61P31 	 count is : 265
 label is : A61P19 	 count is : 89
 label is : A61P35 	 count is : 350
@@ -51,7 +52,7 @@ label is : G01B5 	 count is : 279
 label is : C06B33 	 count is : 162
 label is : G01B7 	 count is : 170
 label is : G01B3 	 count is : 274
-
+</pre>
 ### 第一次运行结果
 <pre>
   H01H3       0.60      0.55      0.57        33
